@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+body{
+  background-color: #8199b2;
+  font-weight: 600;
+  letter-spacing:  2px;
+}
+.up{
+  margin-left: 7vw;
+  margin-top: 7vh;
+  width: 45vw;
+}
+.down{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 50vw;
+}
+.inside{
+  margin-top: 4vh;
+  margin-left: 15vw;
+  height: 38vh;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+}
+.text{
+  font-family: 'Noto Serif TC';
+  color: #fdf7f2;
+}
+.button{
+  font-size: 20px;
+  border: solid 1.5px;
+  border-radius: 25px;
+  padding: 0.5% 2%;
+  text-align: center;
+  width: 90px;
+}
+.Q{
+  line-height: 40px;
+  font-size: 15.5px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+#ul{
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+a{
+  color: #fdf7f2;
+  text-decoration:none;
+}
